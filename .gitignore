@@ -1,0 +1,46 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+!.env.example
+*.egg-info/
+build/
+dist/
+data/private/
+reports/private/
+reports/evaluator-tests/__pycache__/
+reports/browser/profile/
+reports/.legacy-demo-sandbox/
+
+# Only the reproducible synthetic dataset and blank annotation template belong
+# in source control. Keep other local datasets out of the repository.
+/data/*
+!/data/feedback.csv
+!/data/golden.csv
+
+# Preserve the demo, independent checks and durable review evidence, while
+# keeping browser profiles, screenshots, PDFs, temporary fixtures and logs local.
+/reports/*
+!/reports/*.md
+!/reports/verification.json
+!/reports/demo/
+/reports/demo/*
+!/reports/demo/report.html
+!/reports/demo/analysis.json
+!/reports/demo/sanitized.csv
+!/reports/evaluator-tests/
+/reports/evaluator-tests/*
+!/reports/evaluator-tests/test_independent.py
+!/reports/codex-migration/
+/reports/codex-migration/*
+!/reports/codex-migration/*.md
+!/reports/codex-migration/verification.json
+!/reports/codex-migration/docx-check.json
+!/reports/report-redesign/
+/reports/report-redesign/*
+!/reports/report-redesign/review.md
+!/reports/report-redesign/test_independent_report.py
+!/reports/report-redesign/verification.json
+!/reports/report-redesign/print-check.json

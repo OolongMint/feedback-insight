@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-25",
+  "dataset": "synthetic",
+  "rows": 300,
+  "topics": 6,
+  "aggregated_rows": 296,
+  "quarantined_rows": 4,
+  "citation_check": {
+    "total": 30,
+    "verified": 30,
+    "rate": 1.0,
+    "passed": true
+  },
+  "elapsed_seconds": 0.008482000004732981,
+  "external_model_calls": 0,
+  "model_cost_cny": 0,
+  "golden_rows": 60,
+  "human_labels_complete": false,
+  "evaluation_status": "pending",
+  "evaluation_exit_code": 2,
+  "browser_checks": {
+    "passed": true,
+    "viewports": [
+      {
+        "title": "用户反馈洞察 · Feedback Insight",
+        "width": 1440,
+        "documentWidth": 1425,
+        "bodyText": 18418,
+        "inputs": 1,
+        "externalAssets": []
+      },
+      {
+        "title": "用户反馈洞察 · Feedback Insight",
+        "width": 768,
+        "documentWidth": 753,
+        "bodyText": 18418,
+        "inputs": 1,
+        "externalAssets": []
+      },
+      {
+        "title": "用户反馈洞察 · Feedback Insight",
+        "width": 390,
+        "documentWidth": 375,
+        "bodyText": 18431,
+        "inputs": 1,
+        "externalAssets": []
+      }
+    ],
+    "interactions": {
+      "emptyState": true,
+      "topicFilter": true,
+      "sourceLink": true
+    },
+    "javascriptErrors": []
+  },
+  "real_model_quality": "pending_user_configuration_and_human_labels",
+  "product_tests_passed": 19,
+  "independent_tests_passed": 17,
+  "independent_verdict": "F01-F06 engineering passed",
+  "review": "reports/review-final.md",
+  "latest_migration_verification": "reports/codex-migration/verification.json",
+  "current_product_tests_passed": 36,
+  "current_independent_tests_passed": 24,
+  "latest_ui_verification": "reports/report-redesign/verification.json"
+}

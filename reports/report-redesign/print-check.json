@@ -1,0 +1,16 @@
+{
+  "pages": 16,
+  "rendered_pages": [
+    1,
+    2,
+    4,
+    5,
+    16
+  ],
+  "feedback_page": 4,
+  "printed_source_rows": 300,
+  "expected_source_rows": 300,
+  "all_rows_present": true,
+  "printed_quotes": 30,
+  "all_quotes_present": true
+}

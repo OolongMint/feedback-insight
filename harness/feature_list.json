@@ -1,0 +1,113 @@
+{
+  "project": "用户反馈洞察助手",
+  "version": 1,
+  "source": "AI 产品经理三 Agent 试跑计划：用户反馈洞察助手.docx",
+  "features": [
+    {
+      "id": "F01",
+      "title": "数据导入与脱敏",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "acceptance": "harness/acceptance/F01.md",
+      "validation_scope": "engineering",
+      "evidence": "reports/review-final.md",
+      "rework_rounds": 0
+    },
+    {
+      "id": "F02",
+      "title": "单条分类",
+      "depends_on": [
+        "F01"
+      ],
+      "priority": 1,
+      "status": "done",
+      "acceptance": "harness/acceptance/F02.md",
+      "validation_scope": "engineering",
+      "evidence": "reports/review-final.md",
+      "rework_rounds": 1
+    },
+    {
+      "id": "F03",
+      "title": "主题聚合与排序",
+      "depends_on": [
+        "F02"
+      ],
+      "priority": 1,
+      "status": "done",
+      "acceptance": "harness/acceptance/F03.md",
+      "validation_scope": "engineering",
+      "evidence": "reports/review-final.md",
+      "rework_rounds": 0
+    },
+    {
+      "id": "F04",
+      "title": "洞察摘要与原话引用",
+      "depends_on": [
+        "F03"
+      ],
+      "priority": 1,
+      "status": "done",
+      "acceptance": "harness/acceptance/F04.md",
+      "validation_scope": "engineering",
+      "evidence": "reports/review-final.md",
+      "rework_rounds": 1
+    },
+    {
+      "id": "F05",
+      "title": "HTML 报告",
+      "depends_on": [
+        "F04"
+      ],
+      "priority": 1,
+      "status": "done",
+      "acceptance": "harness/acceptance/F05.md",
+      "validation_scope": "engineering",
+      "evidence": "reports/review-final.md",
+      "rework_rounds": 0,
+      "presentation_revision": {
+        "style": "dark_formal_report",
+        "status": "done",
+        "verified_on": "2026-10-26",
+        "acceptance": "harness/acceptance/F05-dark-report.md",
+        "evidence": "reports/report-redesign/review.md"
+      }
+    },
+    {
+      "id": "F06",
+      "title": "评测脚本",
+      "depends_on": [
+        "F02",
+        "F04",
+        "F05"
+      ],
+      "priority": 1,
+      "status": "done",
+      "acceptance": "harness/acceptance/F06.md",
+      "validation_scope": "engineering",
+      "evidence": "reports/review-final.md",
+      "rework_rounds": 1
+    }
+  ],
+  "pending_human_requirements": [
+    "60 条人工标注黄金集",
+    "20 条人工抽检",
+    "真实模型凭证与已确认单价、预算",
+    "真实模型质量与费用验收"
+  ],
+  "workflow": {
+    "max_rework_rounds": 3,
+    "mark_done_requires": "independent_evaluator_pass"
+  },
+  "engineering_status": "passed",
+  "real_model_product_status": "pending_human_labels_credentials_and_spotcheck",
+  "verified_on": "2026-10-25",
+  "development_environment": "Codex",
+  "instructions_file": "AGENTS.md",
+  "custom_agents": [
+    ".codex/agents/planner.toml",
+    ".codex/agents/generator.toml",
+    ".codex/agents/evaluator.toml"
+  ],
+  "migration_evidence": "reports/codex-migration/review.md"
+}

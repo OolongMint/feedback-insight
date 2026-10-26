@@ -1,0 +1,268 @@
+{
+  "product_tests": 36,
+  "independent_core": {
+    "exit_code": 0
+  },
+  "independent_report": {
+    "exit_code": 0
+  },
+  "compile": {
+    "exit_code": 0
+  },
+  "date": "2026-10-26",
+  "independent_core_tests": 17,
+  "independent_report_tests": 7,
+  "total_tests": 60,
+  "metadata": {
+    "valid_rows": 300,
+    "rejected_rows": 0,
+    "duplicate_rows": 0,
+    "quarantined_rows": 4,
+    "redacted_rows": 0,
+    "rejections": [],
+    "aggregated_rows": 296,
+    "mode": "demo",
+    "elapsed_seconds": 0.01237589999800548,
+    "cost_cny": 0.0,
+    "model": "local-rules",
+    "calls": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "usage_estimated": false,
+    "budget_cny": 0,
+    "quality_status": "待人工黄金集验收",
+    "provider": "local",
+    "synthetic": true
+  },
+  "citation_check": {
+    "total": 30,
+    "verified": 30,
+    "rate": 1.0,
+    "passed": true
+  },
+  "browser": {
+    "passed": true,
+    "viewports": [
+      {
+        "title": "用户反馈分析报告",
+        "width": 1440,
+        "documentWidth": 1425,
+        "bodyText": 17482,
+        "inputs": 1,
+        "background": "rgb(21, 24, 29)",
+        "bodyFont": "15px",
+        "heading": "用户反馈分析报告",
+        "headingSize": "26px",
+        "sidebar": 0,
+        "feedbackRows": 300,
+        "externalAssets": []
+      },
+      {
+        "title": "用户反馈分析报告",
+        "width": 768,
+        "documentWidth": 753,
+        "bodyText": 17482,
+        "inputs": 1,
+        "background": "rgb(21, 24, 29)",
+        "bodyFont": "15px",
+        "heading": "用户反馈分析报告",
+        "headingSize": "26px",
+        "sidebar": 0,
+        "feedbackRows": 300,
+        "externalAssets": []
+      },
+      {
+        "title": "用户反馈分析报告",
+        "width": 390,
+        "documentWidth": 375,
+        "bodyText": 17482,
+        "inputs": 1,
+        "background": "rgb(21, 24, 29)",
+        "bodyFont": "15px",
+        "heading": "用户反馈分析报告",
+        "headingSize": "26px",
+        "sidebar": 0,
+        "feedbackRows": 300,
+        "externalAssets": []
+      }
+    ],
+    "initialEvidence": {
+      "hasEvidence": true,
+      "twoByDefault": true,
+      "nativeRemainder": true,
+      "uniqueSourceIds": true
+    },
+    "keyboard": {
+      "focusedNativeSummary": true,
+      "keyboardExpanded": true
+    },
+    "interactions": {
+      "emptyState": true,
+      "summaryUnaffected": true,
+      "topicFilter": true,
+      "sentimentFilter": true,
+      "topicJump": true,
+      "sourceLink": true
+    },
+    "printState": {
+      "afterWithoutBefore": true,
+      "allEvidenceOpen": true,
+      "allRowsVisible": true,
+      "noFalseEmpty": true,
+      "exactRestoration": true
+    },
+    "actualPrint": {
+      "beforeEvent": true,
+      "afterEvent": true,
+      "stateRestored": true
+    },
+    "printAppearance": {
+      "whiteBackground": true,
+      "darkText": true,
+      "readableTables": true
+    },
+    "javascriptErrors": []
+  },
+  "print_check": {
+    "pages": 16,
+    "rendered_pages": [
+      1,
+      2,
+      4,
+      5,
+      16
+    ],
+    "feedback_page": 4,
+    "printed_source_rows": 300,
+    "expected_source_rows": 300,
+    "all_rows_present": true,
+    "printed_quotes": 30,
+    "all_quotes_present": true
+  },
+  "external_model_calls": 0,
+  "status": "passed",
+  "review": "reports/report-redesign/review.md",
+  "edge_long_browser": {
+    "passed": true,
+    "viewports": [
+      {
+        "title": "用户反馈分析报告",
+        "width": 1440,
+        "documentWidth": 1425,
+        "bodyText": 6533,
+        "inputs": 1,
+        "background": "rgb(21, 24, 29)",
+        "bodyFont": "15px",
+        "heading": "用户反馈分析报告",
+        "headingSize": "26px",
+        "sidebar": 0,
+        "feedbackRows": 3,
+        "externalAssets": []
+      },
+      {
+        "title": "用户反馈分析报告",
+        "width": 768,
+        "documentWidth": 753,
+        "bodyText": 6533,
+        "inputs": 1,
+        "background": "rgb(21, 24, 29)",
+        "bodyFont": "15px",
+        "heading": "用户反馈分析报告",
+        "headingSize": "26px",
+        "sidebar": 0,
+        "feedbackRows": 3,
+        "externalAssets": []
+      },
+      {
+        "title": "用户反馈分析报告",
+        "width": 390,
+        "documentWidth": 375,
+        "bodyText": 6533,
+        "inputs": 1,
+        "background": "rgb(21, 24, 29)",
+        "bodyFont": "15px",
+        "heading": "用户反馈分析报告",
+        "headingSize": "26px",
+        "sidebar": 0,
+        "feedbackRows": 3,
+        "externalAssets": []
+      }
+    ],
+    "initialEvidence": {
+      "hasEvidence": true,
+      "twoByDefault": true,
+      "nativeRemainder": true,
+      "uniqueSourceIds": true
+    },
+    "keyboard": {
+      "focusedNativeSummary": true,
+      "keyboardExpanded": true
+    },
+    "interactions": {
+      "emptyState": true,
+      "summaryUnaffected": true,
+      "topicFilter": true,
+      "sentimentFilter": true,
+      "topicJump": true,
+      "sourceLink": true
+    },
+    "printState": {
+      "afterWithoutBefore": true,
+      "allEvidenceOpen": true,
+      "allRowsVisible": true,
+      "noFalseEmpty": true,
+      "exactRestoration": true
+    },
+    "actualPrint": {
+      "beforeEvent": true,
+      "afterEvent": true,
+      "stateRestored": true
+    },
+    "printAppearance": {
+      "whiteBackground": true,
+      "darkText": true,
+      "readableTables": true
+    },
+    "javascriptErrors": []
+  },
+  "edge_empty_browser": {
+    "passed": true,
+    "checks": [
+      {
+        "width": 1440,
+        "documentWidth": 1425,
+        "mainWidth": 1120,
+        "background": "rgb(21, 24, 29)",
+        "noFakeDate": true,
+        "emptyState": true,
+        "noQuotes": true
+      },
+      {
+        "width": 390,
+        "documentWidth": 375,
+        "mainWidth": 375,
+        "background": "rgb(21, 24, 29)",
+        "noFakeDate": true,
+        "emptyState": true,
+        "noQuotes": true
+      }
+    ],
+    "javascriptErrors": []
+  },
+  "visual_review": {
+    "screen_widths": [
+      1440,
+      768,
+      390
+    ],
+    "main_print_pages_inspected": [
+      1,
+      2,
+      4,
+      5,
+      16
+    ],
+    "all_pdf_source_rows_and_quotes_checked": true
+  },
+  "preview_url": "http://127.0.0.1:8765/report.html"
+}

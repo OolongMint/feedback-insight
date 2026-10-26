@@ -1,0 +1,80 @@
+{
+  "product_tests": {
+    "exit_code": 0
+  },
+  "independent_tests": {
+    "exit_code": 0
+  },
+  "compile": {
+    "exit_code": 0
+  },
+  "demo": {
+    "exit_code": 0
+  },
+  "product_tests_passed": 30,
+  "independent_tests_passed": 17,
+  "codex_config": "passed",
+  "legacy_active_files_removed": true,
+  "external_model_calls": 0,
+  "demo_rows": 300,
+  "demo_provider": "local",
+  "citation_check": {
+    "total": 30,
+    "verified": 30,
+    "rate": 1.0,
+    "passed": true
+  },
+  "browser_checks": {
+    "passed": true,
+    "viewports": [
+      {
+        "title": "用户反馈洞察 · Feedback Insight",
+        "width": 1440,
+        "documentWidth": 1425,
+        "bodyText": 18418,
+        "inputs": 1,
+        "externalAssets": []
+      },
+      {
+        "title": "用户反馈洞察 · Feedback Insight",
+        "width": 768,
+        "documentWidth": 753,
+        "bodyText": 18418,
+        "inputs": 1,
+        "externalAssets": []
+      },
+      {
+        "title": "用户反馈洞察 · Feedback Insight",
+        "width": 390,
+        "documentWidth": 375,
+        "bodyText": 18431,
+        "inputs": 1,
+        "externalAssets": []
+      }
+    ],
+    "interactions": {
+      "emptyState": true,
+      "topicFilter": true,
+      "sourceLink": true
+    },
+    "javascriptErrors": []
+  },
+  "document_check": {
+    "target": "D:\\AI_Project\\VibeCodingProject\\multi_agents：用户反馈洞察助手\\AI 产品经理三 Agent 试跑计划：用户反馈洞察助手.docx",
+    "original_backup": "D:\\AI_Project\\VibeCodingProject\\multi_agents：用户反馈洞察助手\\docs\\archive\\原始试跑计划.docx",
+    "tables_preserved": 6,
+    "updated_original_paragraphs": 31,
+    "updated_table_cells": 21,
+    "source_platform_terms_removed": true,
+    "paragraphs": 78,
+    "render_status": "passed",
+    "render_backend": "Microsoft Word 16 COM export + bundled Poppler",
+    "render_pages": 9,
+    "all_pages_visually_inspected": true,
+    "zip_integrity": "passed",
+    "sha256": "3661bbbef34d5cd854ecad4b97dbe7c7948eff558140f6be3ae88693a256eb81"
+  },
+  "windows_publication_acl": "matches_normally_created_output_file",
+  "legacy_demo_preserved": "reports/.legacy-demo-sandbox",
+  "real_gpt_quality": "pending_human_labels_and_user_api_configuration"
+}
