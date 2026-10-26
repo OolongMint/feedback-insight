@@ -44,3 +44,11 @@ reports/.legacy-demo-sandbox/
 !/reports/report-redesign/test_independent_report.py
 !/reports/report-redesign/verification.json
 !/reports/report-redesign/print-check.json
+
+# Project agent definitions are versioned; local Codex authentication, sessions
+# and runtime state are not.
+/.codex/*
+!/.codex/config.toml
+!/.codex/agents/
+/.codex/agents/*
+!/.codex/agents/*.toml

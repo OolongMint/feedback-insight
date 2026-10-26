@@ -72,3 +72,10 @@
 - 浏览器探针初次键盘检查失败，根因为模拟Enter缺少字符事件；修复测试驱动事件后通过，产品原生details不需变更。未修改验收标准迁就实现。
 - 独立最终判定见 `reports/report-redesign/review.md`，汇总证据 `verification.json`，浏览器证据 `reports/browser/checks.json`。默认演示已重新生成，http://127.0.0.1:8765/report.html返回200且为新版。
 - 本轮仅改变F05呈现，保留CLI与分析格式，未读取人工标签或调用付费模型。Word计划无需因界面改版重新生成。
+
+## GitHub 同步 2026-10-26
+- 用户明确选择在OolongMint账号下新建私有仓库 `feedback-insight`。本地Git已初始化为main，并关联 https://github.com/OolongMint/feedback-insight.git 的origin/main。
+- 首次代码提交 `18ccca7` 已推送，远程默认分支main、仓库PRIVATE、非空，本地与远程SHA一致。
+- 提交前实跑36项产品测试+17项基础独立探针+7项报告探针，共60项全部通过；67份提交文件约648KB，暂存内容的密钥特征检查无匹配。
+- 已确认样例反馈为合成数据、golden.csv为未标注模板；排除真实数据目录、环境密钥、本地Codex认证与会话、临时PDF/截图/日志/浏览器配置和旧沙盒输出。保留源码、配置、Word计划与备份、README预览图、合成演示及独立验收证据。
+- 本轮仅创建项目本地Git和用户确认的私有仓库，没有修改全局Git/Codex配置或运行真实模型；README补充克隆和后续同步命令。

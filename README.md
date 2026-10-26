@@ -6,6 +6,25 @@
 
 ![深色专业分析报告预览](docs/images/report-dark.png)
 
+## 从 GitHub 获取
+
+仓库为 [OolongMint/feedback-insight](https://github.com/OolongMint/feedback-insight)，当前为私有仓库，访问和克隆需要仓库权限。
+
+```powershell
+git clone https://github.com/OolongMint/feedback-insight.git
+cd feedback-insight
+```
+
+本地 `main` 已关联 `origin/main`。后续修改可在确认 `git status` 后提交并推送：
+
+```powershell
+git add .
+git commit -m "Update feedback insight"
+git push
+```
+
+密钥、私有数据、临时浏览器/打印质检产物已通过 `.gitignore` 排除。仓库保留合成数据、空白黄金标注模板、演示报告及独立验收记录。
+
 ## 先运行演示
 
 在项目目录打开 PowerShell：
